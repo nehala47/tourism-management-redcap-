@@ -1,0 +1,19 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-img{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2{
+    color: ghostwhite;
+    margin-left: 20%;
+    font-family: 'Gelasio', serif;
+}
+

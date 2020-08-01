@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>login page</title>
+        <link href="style1.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+              .navbar navbar-expand-lg navbar-light bg-light{
+                background-color: cadetblue;
+              }
+
+        </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- Just an image -->
+          <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+          <img src="logo.png" width="30" height="30" alt="">
+          </a>
+          </nav>
+            <a class="navbar-brand">SKY HIGH TRAVELS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="front.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <center>
+          <div class="login-form">
+              <form action="validation.php" method="POST">
+                <br>
+                <h2> LOGIN </h2>
+                <br>
+                <b>USERNAME</b >: <input type="text"  name="username" placeholder="enter username" size=30 style="padding: 3px;"><br><br>
+                <b>PASSWORD</b>: <input type="password"  name="password"  placeholder="enter password" size=30 style="padding: 3px;"><br><br>
+                <button type="submit" value="login" style="padding: 8px; background-color: cornsilk;">Login</button>  
+                          
+              </form>
+              <a href="signup.html"><button type="submit" value="create new account" style="padding: 8px; background-color: cornsilk;">CREATE ACCOUNT
+          </div>
+          </center>
+    </body>
+</html>

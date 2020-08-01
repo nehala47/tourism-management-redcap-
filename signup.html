@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>SIGN UP</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+            body{
+                background-image: url("back1.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+
+
+            .signup-form{
+                float: left;
+                margin-left: 30%;
+                margin-top: 12%;
+                width: 500px;
+                height: 300px;
+                border: 2px solid white;
+                background-color: thistle;
+                border-radius: 30px;
+                text-align: center;
+                opacity: 0.8;
+                color: midnightblue;
+                font-family: sans-serif;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <center>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                <img src="logo.png" width="30" height="30" alt="">
+                </a>
+                </nav>
+                <a class="navbar-brand" href="#">SKY HIGH TRAVELS</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="front.html">Home </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+
+              <div class="signup-form">
+                <form action="registeration.php" method="POST">
+                  <br>
+                  <h2>SIGN UP</h2>
+                  <br>
+                  <b>USERNAME</b>: <input type="text" name="username" placeholder="enter username" size=30 style="padding: 3px;"><br><br>
+                  <b>PASSWORD</b>: <input type="password" name="password" placeholder="enter password" size=30s style="padding: 3px;"><br><br>
+                  <button type="submit" value="signup" style="padding: 8px; background-color: cornsilk;">Sign up</button>
+                </form>
+            </div>
+    </body>
+</html>

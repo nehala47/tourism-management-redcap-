@@ -1,0 +1,22 @@
+body{
+    background-image: url("back1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-form{
+    float: left;
+    margin-left: 30%;
+    margin-top: 12%;
+    width: 500px;
+    height: 350px;
+    border: 2px solid white;
+    background-color: thistle;
+    border-radius: 30px;
+    text-align: center;
+    opacity: 0.8;
+    color: midnightblue;
+    font-family: sans-serif;
+}
+
+
